@@ -1,0 +1,165 @@
+.MotherDiv{
+    width: 75%;
+    margin: 50px auto;
+}
+.Header{
+    background-color:#0E0701;
+    width: 100%;
+    position: sticky;
+    
+}
+.Menu ul {
+    list-style: none;
+    text-align: right;
+}
+.Menu ul li {
+    display: inline-block;
+}
+.Menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    line-height: 3.5;
+    font-size: 19px;
+}
+.logo a {
+    line-height: 6;
+    margin-left: 15px;
+}
+
+.banner{
+    background-image: url(https://st3.depositphotos.com/13630662/17843/i/450/depositphotos_178433076-stock-photo-landscape-japan-spring-violet-background.jpg);
+    background-size: 100% 100%;
+    position: center center;
+
+}
+.banner h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner p {
+    font-weight: 700;
+}
+.banner button {
+    border: none;
+    background: black;
+}
+.banner button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px;
+}
+.bannerContent {
+    margin-top: 100px;
+    margin-left: 60px;
+    padding-bottom: 160px;
+}
+.AboutSection{
+    background: #444444;
+    padding: 30px 40px;
+}
+.AboutSection p {
+    color: white;
+    font-weight: 500;
+    padding: 15px 211px 0px 45px;
+    line-height: 2;
+}
+.AboutSection img {
+    /* font-size: 24px; */
+    width: auto;
+    width: 200px;
+    height: auto;
+    padding: 18px 0px;
+}
+.teamsection{
+    background: #458B83;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.teamsection h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    padding:20px 0px 10px 0px;
+}
+.teamBox {
+    width: 200px;
+    /* display: inline-block; */
+    float: left;
+    margin-right: 100px;
+    margin-left: 47px;
+    text-align: center;
+}
+.teamBox:last-child {
+    margin-right: 0px;
+}
+.teamBox img {
+    width: 100%;
+}
+.teamBox ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.teamBox ul li{
+    display: inline-block;
+    maring:10px;
+}
+.teamBox ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+     
+}
+.teamBox ul li a i{
+    color: black;
+}
+.clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.Mernu ul .dropdown{
+    position: relative;
+}
+.Menu ul .dropdown ul {
+    position: absolute;
+    top: 75px;
+    left: -37px;
+    
+    list-style: none;
+    /* text-align: center; */
+    visibility: hidden;
+    opacity: 0;
+    transition: .7s;
+}
+.Menu ul .dropdown:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.Menu ul .dropdown ul li {
+    border-bottom: 1px solid #ffffff73;
+    width: 100%;
+    width: 120px;
+    line-height: 1 !important;
+    background: rgb(0 0 0 / 50%);
+    transition: .6s;
+}
+.Menu ul .dropdown ul li:hover{
+    background-color: rgba(62, 62, 204, 0.973);
+}
+.Menu ul .dropdown ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 12px;
+    line-height: 1;
+}
